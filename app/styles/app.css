@@ -1,0 +1,118 @@
+body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("background.jpg");
+  background-size: 100% 150%;
+}
+
+#div1
+{
+  position: relative;
+  width: 450px;
+  height: 500px;
+  float: left;
+  left: 20%;
+  top: 50px;
+  border: 3px solid black;
+}
+
+#title1
+{
+  text-align: center;
+}
+
+#useraddress
+{
+  position: relative;
+  font-size: 20px;
+  margin: 8px;
+}
+
+#_useraddress
+{
+  position: absolute;
+  left: 95px;
+  top: 80px;
+  height: 30px;
+  width: 340px;
+}
+
+#radios
+{
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#money
+{
+  position: relative;
+  text-align: center;
+  height: 30px;
+  width: 340px;
+  left: 30px;
+}
+
+#submit
+{
+  position: relative;
+  height: 36px;
+  left: 30px;
+  top: 1px;
+}
+
+#msg
+{
+  position: relative;
+  padding: 0;
+  font-size: 14px;
+  color: red;
+  margin: 0 auto;
+  text-align: center;
+  visibility: hidden;
+}
+
+.buttons
+{
+  position: relative;
+  width: 230px;
+  margin-top: 15px;
+  margin: 15px auto;
+}
+
+.button
+{
+  width: 66px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 3px;
+  border-radius: 50%;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+
+#div2
+{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  float: left;
+  left: 30%;
+  top: 50px;
+  font-size: 17px;
+}
+
+#title2
+{
+  font-size: 35px;
+}
+
+#tips
+{
+  margin-top: 5px;
+  color: red;
+}

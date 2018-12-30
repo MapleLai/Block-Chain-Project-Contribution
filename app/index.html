@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contribution</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+
+<body>
+  <div id="div1">
+    <h1 id="title1">用户操作</h1>
+    <p id="useraddress">用户地址:</p>
+    <input id="_useraddress" type="text" placeholder=" e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae">
+    <form id="radios"> 
+      <input name="operate" type="radio" value="" checked="checked" id="op1" onclick="App.change1()"/>进行捐款
+      <input name="operate" type="radio" value="" id="op2" onclick="App.change2()"/>设置目标金额
+    </form>
+    <input id="money" type="text" placeholder="请输入捐款金额" disabled="disabled">
+    <button id="submit" onclick="App.send()">捐款</button>
+    <p id="msg">你没有权限进行此项操作</p>
+    <div class="buttons">
+      <button id="1" class="button" onclick="App.add(this.id)">1</button>
+      <button id="2" class="button" onclick="App.add(this.id)">2</button>
+      <button id="3" class="button" onclick="App.add(this.id)">3</button>
+      <button id="4" class="button" onclick="App.add(this.id)">4</button>
+      <button id="5" class="button" onclick="App.add(this.id)">5</button>
+      <button id="6" class="button" onclick="App.add(this.id)">6</button>
+      <button id="7" class="button" onclick="App.add(this.id)">7</button>
+      <button id="8" class="button" onclick="App.add(this.id)">8</button>
+      <button id="9" class="button" onclick="App.add(this.id)">9</button>
+      <button id="0" class="button" onclick="App.add(this.id)">0</button>
+      <button id="←" class="button" onclick="App.back()">←</button>
+      <button id="CE" class="button" onclick="App.clr()">CE</button>
+    </div>
+  </div>
+  <div id="div2">
+    <h1 id="title2">募捐信息</h1>
+    <p id="target">目标金额：0</p>
+    <p id="funds">已筹集数：0</p>
+    <p id="participants">参与人次：0</p>
+    <p id="max">最大捐款：0</p>
+    <p id="tips">注：只有合约的部署者可以设置目标金额</p>
+  </div>
+</body>
+
+</html>
